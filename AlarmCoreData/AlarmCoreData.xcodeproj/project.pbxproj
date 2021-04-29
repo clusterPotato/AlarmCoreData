@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03677A25263B46960016C741 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A24263B46960016C741 /* Strings.swift */; };
+		03677A27263B47D80016C741 /* Alarm+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A26263B47D80016C741 /* Alarm+Convenience.swift */; };
+		03677A29263B48820016C741 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A28263B48820016C741 /* CoreDataStack.swift */; };
+		03677A2E263B4A120016C741 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A2D263B4A120016C741 /* AlarmController.swift */; };
+		03677A30263B4E840016C741 /* car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03677A2F263B4E840016C741 /* car.mp3 */; };
+		03677A33263B4EDD0016C741 /* MainListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A32263B4EDD0016C741 /* MainListTableViewController.swift */; };
+		03677A36263B4EF90016C741 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A35263B4EF90016C741 /* AlarmCell.swift */; };
+		03677A38263B54520016C741 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A37263B54520016C741 /* Extensions.swift */; };
+		03677A3A263B54C60016C741 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A39263B54C60016C741 /* Protocols.swift */; };
+		03677A3D263B5E8A0016C741 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A3C263B5E8A0016C741 /* DetailTableViewController.swift */; };
+		03677A3F263B68630016C741 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03677A3E263B68630016C741 /* AlarmScheduler.swift */; };
 		FBF66FDA25B755D40038F7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF66FD925B755D40038F7AC /* AppDelegate.swift */; };
 		FBF66FDC25B755D40038F7AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF66FDB25B755D40038F7AC /* SceneDelegate.swift */; };
 		FBF66FE125B755D40038F7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF66FDF25B755D40038F7AC /* Main.storyboard */; };
@@ -16,6 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03677A24263B46960016C741 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		03677A26263B47D80016C741 /* Alarm+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alarm+Convenience.swift"; sourceTree = "<group>"; };
+		03677A28263B48820016C741 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		03677A2D263B4A120016C741 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		03677A2F263B4E840016C741 /* car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = car.mp3; sourceTree = "<group>"; };
+		03677A32263B4EDD0016C741 /* MainListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListTableViewController.swift; sourceTree = "<group>"; };
+		03677A35263B4EF90016C741 /* AlarmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		03677A37263B54520016C741 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		03677A39263B54C60016C741 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		03677A3C263B5E8A0016C741 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		03677A3E263B68630016C741 /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
 		FBF66FD625B755D40038F7AC /* AlarmCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF66FD925B755D40038F7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF66FDB25B755D40038F7AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +59,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03677A2A263B49F60016C741 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03677A2C263B49FF0016C741 /* View */,
+				03677A2B263B49FB0016C741 /* Model */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		03677A2B263B49FB0016C741 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03677A2D263B4A120016C741 /* AlarmController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03677A2C263B49FF0016C741 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03677A32263B4EDD0016C741 /* MainListTableViewController.swift */,
+				03677A3C263B5E8A0016C741 /* DetailTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03677A31263B4EB50016C741 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				03677A34263B4EE90016C741 /* custom views */,
+				FBF66FF425B7562C0038F7AC /* Storyboards */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		03677A34263B4EE90016C741 /* custom views */ = {
+			isa = PBXGroup;
+			children = (
+				03677A35263B4EF90016C741 /* AlarmCell.swift */,
+			);
+			path = "custom views";
+			sourceTree = "<group>";
+		};
+		03677A3B263B54EC0016C741 /* extensions, delegates, and enums */ = {
+			isa = PBXGroup;
+			children = (
+				03677A24263B46960016C741 /* Strings.swift */,
+				03677A37263B54520016C741 /* Extensions.swift */,
+				03677A39263B54C60016C741 /* Protocols.swift */,
+			);
+			path = "extensions, delegates, and enums";
+			sourceTree = "<group>";
+		};
 		FBF66FCD25B755D40038F7AC = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				FBF66FF525B756350038F7AC /* Model */,
+				03677A31263B4EB50016C741 /* views */,
+				03677A2A263B49F60016C741 /* Controllers */,
 				FBF66FF225B7561B0038F7AC /* Supporting Files */,
-				FBF66FF425B7562C0038F7AC /* Storyboards */,
 			);
 			path = AlarmCoreData;
 			sourceTree = "<group>";
@@ -66,10 +142,13 @@
 		FBF66FF225B7561B0038F7AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03677A3B263B54EC0016C741 /* extensions, delegates, and enums */,
+				03677A2F263B4E840016C741 /* car.mp3 */,
 				FBF66FD925B755D40038F7AC /* AppDelegate.swift */,
 				FBF66FDB25B755D40038F7AC /* SceneDelegate.swift */,
 				FBF66FE525B755D60038F7AC /* Assets.xcassets */,
 				FBF66FEA25B755D60038F7AC /* Info.plist */,
+				03677A3E263B68630016C741 /* AlarmScheduler.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -87,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				FBF66FE225B755D40038F7AC /* AlarmCoreData.xcdatamodeld */,
+				03677A26263B47D80016C741 /* Alarm+Convenience.swift */,
+				03677A28263B48820016C741 /* CoreDataStack.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +232,7 @@
 				FBF66FE925B755D60038F7AC /* LaunchScreen.storyboard in Resources */,
 				FBF66FE625B755D60038F7AC /* Assets.xcassets in Resources */,
 				FBF66FE125B755D40038F7AC /* Main.storyboard in Resources */,
+				03677A30263B4E840016C741 /* car.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +243,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03677A3D263B5E8A0016C741 /* DetailTableViewController.swift in Sources */,
 				FBF66FDA25B755D40038F7AC /* AppDelegate.swift in Sources */,
 				FBF66FE425B755D40038F7AC /* AlarmCoreData.xcdatamodeld in Sources */,
+				03677A27263B47D80016C741 /* Alarm+Convenience.swift in Sources */,
+				03677A3A263B54C60016C741 /* Protocols.swift in Sources */,
+				03677A3F263B68630016C741 /* AlarmScheduler.swift in Sources */,
+				03677A29263B48820016C741 /* CoreDataStack.swift in Sources */,
+				03677A33263B4EDD0016C741 /* MainListTableViewController.swift in Sources */,
+				03677A38263B54520016C741 /* Extensions.swift in Sources */,
+				03677A25263B46960016C741 /* Strings.swift in Sources */,
+				03677A36263B4EF90016C741 /* AlarmCell.swift in Sources */,
 				FBF66FDC25B755D40038F7AC /* SceneDelegate.swift in Sources */,
+				03677A2E263B4A120016C741 /* AlarmController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = RCJN47T742;
 				INFOPLIST_FILE = "AlarmCoreData/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,7 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = RCJN47T742;
 				INFOPLIST_FILE = "AlarmCoreData/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
